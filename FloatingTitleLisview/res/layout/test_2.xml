@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.codeminders.choffly.floatingtitlelisview.FloatHeaderListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/fixed_header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="FIXED!"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_dark" />
+    
+
+    <TextView
+        android:id="@+id/floating_header"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@android:color/holo_green_light"
+        android:text="FLOATING!"
+        android:gravity="center" />
+    
+
+</com.codeminders.choffly.floatingtitlelisview.FloatHeaderListView>
